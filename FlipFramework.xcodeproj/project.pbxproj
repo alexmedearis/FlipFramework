@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F22181A161B6CDE008538B5 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F221816161B6CDE008538B5 /* background.jpg */; };
+		6F22181B161B6CDE008538B5 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F221817161B6CDE008538B5 /* Default-Landscape.png */; };
+		6F22181C161B6CDE008538B5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F221818161B6CDE008538B5 /* icon.png */; };
+		6F22181D161B6CDE008538B5 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F221819161B6CDE008538B5 /* icon@2x.png */; };
+		6F9C1C8B161B608200860C2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C1C86161B608200860C2A /* AppDelegate.m */; };
+		6F9C1C8C161B608200860C2A /* FlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C1C88161B608200860C2A /* FlipViewController.m */; };
+		6F9C1C8D161B608200860C2A /* MPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C1C8A161B608200860C2A /* MPAnimation.m */; };
+		6F9C1C90161B60BD00860C2A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F9C1C8E161B60BD00860C2A /* MainStoryboard.storyboard */; };
+		6F9C1D96157D3548006C194C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9C1D95157D3548006C194C /* UIKit.framework */; };
+		6F9C1D98157D3548006C194C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9C1D97157D3548006C194C /* Foundation.framework */; };
+		6F9C1D9A157D3548006C194C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9C1D99157D3548006C194C /* CoreGraphics.framework */; };
+		6F9C1DA0157D3548006C194C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F9C1D9E157D3548006C194C /* InfoPlist.strings */; };
+		6F9C1DA2157D3548006C194C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C1DA1157D3548006C194C /* main.m */; };
+		6F9C1DC5157D580C006C194C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9C1DC4157D580C006C194C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F221816161B6CDE008538B5 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = FlipFramework/Assets/background.jpg; sourceTree = SOURCE_ROOT; };
+		6F221817161B6CDE008538B5 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "FlipFramework/Assets/Default-Landscape.png"; sourceTree = SOURCE_ROOT; };
+		6F221818161B6CDE008538B5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = FlipFramework/Assets/icon.png; sourceTree = SOURCE_ROOT; };
+		6F221819161B6CDE008538B5 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "FlipFramework/Assets/icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		6F9C1C85161B608200860C2A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FlipFramework/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		6F9C1C86161B608200860C2A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FlipFramework/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		6F9C1C87161B608200860C2A /* FlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipViewController.h; path = FlipFramework/FlipViewController.h; sourceTree = SOURCE_ROOT; };
+		6F9C1C88161B608200860C2A /* FlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipViewController.m; path = FlipFramework/FlipViewController.m; sourceTree = SOURCE_ROOT; };
+		6F9C1C89161B608200860C2A /* MPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPAnimation.h; path = FlipFramework/MPAnimation.h; sourceTree = SOURCE_ROOT; };
+		6F9C1C8A161B608200860C2A /* MPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPAnimation.m; path = FlipFramework/MPAnimation.m; sourceTree = SOURCE_ROOT; };
+		6F9C1C8F161B60BD00860C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = FlipFramework/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		6F9C1D91157D3548006C194C /* FlipFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9C1D95157D3548006C194C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F9C1D97157D3548006C194C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F9C1D99157D3548006C194C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F9C1D9D157D3548006C194C /* FlipFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FlipFramework-Prefix.pch"; path = "FlipFramework/FlipFramework-Prefix.pch"; sourceTree = "<group>"; };
+		6F9C1D9F157D3548006C194C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F9C1DA1157D3548006C194C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FlipFramework/main.m; sourceTree = SOURCE_ROOT; };
+		6F9C1DA3157D3548006C194C /* FlipFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "FlipFramework-Info.plist"; path = "FlipFramework/FlipFramework-Info.plist"; sourceTree = "<group>"; };
+		6F9C1DC4157D580C006C194C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F9C1D8E157D3548006C194C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9C1DC5157D580C006C194C /* QuartzCore.framework in Frameworks */,
+				6F9C1D96157D3548006C194C /* UIKit.framework in Frameworks */,
+				6F9C1D98157D3548006C194C /* Foundation.framework in Frameworks */,
+				6F9C1D9A157D3548006C194C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F87E25915F7A47300AC401F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6F221816161B6CDE008538B5 /* background.jpg */,
+				6F221817161B6CDE008538B5 /* Default-Landscape.png */,
+				6F221818161B6CDE008538B5 /* icon.png */,
+				6F221819161B6CDE008538B5 /* icon@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		6F9C1D86157D3548006C194C = {
+			isa = PBXGroup;
+			children = (
+				6F9C1DC4157D580C006C194C /* QuartzCore.framework */,
+				6F9C1D9B157D3548006C194C /* FlipFramework */,
+				6F9C1D94157D3548006C194C /* Frameworks */,
+				6F9C1D92157D3548006C194C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F9C1D92157D3548006C194C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C1D91157D3548006C194C /* FlipFramework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F9C1D94157D3548006C194C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C1D95157D3548006C194C /* UIKit.framework */,
+				6F9C1D97157D3548006C194C /* Foundation.framework */,
+				6F9C1D99157D3548006C194C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F9C1D9B157D3548006C194C /* FlipFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C1C85161B608200860C2A /* AppDelegate.h */,
+				6F9C1C86161B608200860C2A /* AppDelegate.m */,
+				6F9C1C87161B608200860C2A /* FlipViewController.h */,
+				6F9C1C88161B608200860C2A /* FlipViewController.m */,
+				6F9C1C89161B608200860C2A /* MPAnimation.h */,
+				6F9C1C8A161B608200860C2A /* MPAnimation.m */,
+				6F9C1C8E161B60BD00860C2A /* MainStoryboard.storyboard */,
+				6F87E25915F7A47300AC401F /* Assets */,
+				6F9C1D9C157D3548006C194C /* Supporting Files */,
+			);
+			name = FlipFramework;
+			path = FlipTest;
+			sourceTree = "<group>";
+		};
+		6F9C1D9C157D3548006C194C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C1D9D157D3548006C194C /* FlipFramework-Prefix.pch */,
+				6F9C1D9E157D3548006C194C /* InfoPlist.strings */,
+				6F9C1DA1157D3548006C194C /* main.m */,
+				6F9C1DA3157D3548006C194C /* FlipFramework-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F9C1D90157D3548006C194C /* FlipFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9C1DAF157D3548006C194C /* Build configuration list for PBXNativeTarget "FlipFramework" */;
+			buildPhases = (
+				6F9C1D8D157D3548006C194C /* Sources */,
+				6F9C1D8E157D3548006C194C /* Frameworks */,
+				6F9C1D8F157D3548006C194C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipFramework;
+			productName = FlipTest;
+			productReference = 6F9C1D91157D3548006C194C /* FlipFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F9C1D88157D3548006C194C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6F9C1D8B157D3548006C194C /* Build configuration list for PBXProject "FlipFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F9C1D86157D3548006C194C;
+			productRefGroup = 6F9C1D92157D3548006C194C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F9C1D90157D3548006C194C /* FlipFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F9C1D8F157D3548006C194C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9C1DA0157D3548006C194C /* InfoPlist.strings in Resources */,
+				6F9C1C90161B60BD00860C2A /* MainStoryboard.storyboard in Resources */,
+				6F22181A161B6CDE008538B5 /* background.jpg in Resources */,
+				6F22181B161B6CDE008538B5 /* Default-Landscape.png in Resources */,
+				6F22181C161B6CDE008538B5 /* icon.png in Resources */,
+				6F22181D161B6CDE008538B5 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F9C1D8D157D3548006C194C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9C1DA2157D3548006C194C /* main.m in Sources */,
+				6F9C1C8B161B608200860C2A /* AppDelegate.m in Sources */,
+				6F9C1C8C161B608200860C2A /* FlipViewController.m in Sources */,
+				6F9C1C8D161B608200860C2A /* MPAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F9C1C8E161B60BD00860C2A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9C1C8F161B60BD00860C2A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6F9C1D9E157D3548006C194C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9C1D9F157D3548006C194C /* en */,
+			);
+			name = InfoPlist.strings;
+			path = FlipFramework;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F9C1DAD157D3548006C194C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "FlipFramework/FlipFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6F9C1DAE157D3548006C194C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "FlipFramework/FlipFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F9C1DB0157D3548006C194C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFramework/FlipFramework-Prefix.pch";
+				INFOPLIST_FILE = "FlipFramework/FlipFramework-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = FlipFramework;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F9C1DB1157D3548006C194C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alex Medearis (UBFJTML2DG)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFramework/FlipFramework-Prefix.pch";
+				INFOPLIST_FILE = "FlipFramework/FlipFramework-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = FlipFramework;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8D5BF28B-9E33-4F71-9876-AD79CA75400A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F9C1D8B157D3548006C194C /* Build configuration list for PBXProject "FlipFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9C1DAD157D3548006C194C /* Debug */,
+				6F9C1DAE157D3548006C194C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9C1DAF157D3548006C194C /* Build configuration list for PBXNativeTarget "FlipFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9C1DB0157D3548006C194C /* Debug */,
+				6F9C1DB1157D3548006C194C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F9C1D88157D3548006C194C /* Project object */;
+}
