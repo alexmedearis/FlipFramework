@@ -1,6 +1,5 @@
 Flip Framework
 ===
----
 
 Flip Framework is the simplest way to achieve 1-dimensional flip-browsing similar the the behavior found in the popular Flipboard app.  The code is adapted from the [Enter the Matrix](https://github.com/mpospese/EnterTheMatrix) example to work with storyboard layouts. 
 
